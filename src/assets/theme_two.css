@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('../../public/fonts/NeueMontreal/NeueMontreal-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('../../public/fonts/NeueMontreal/NeueMontreal-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('../../public/fonts/NeueMontreal/NeueMontreal-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('../../public/fonts/NeueMontreal/NeueMontreal-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('../../public/fonts/NeueMontreal/NeueMontreal-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  font-family: 'NeueMontreal', Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --clr-black: #323232;
+  --clr-gray: #cfcfcf;
+  --clr-white: #fcf9ff;
+  --clr-white-2: #f2eadf;
+
+  --clr-green: #284530;
+  --clr-blue: #2f3166;
+  --clr-turquoise: #1e5359;
+  --clr-light-brown: #bf6b21;
+  --clr-dark-brown: #732c02;
+}

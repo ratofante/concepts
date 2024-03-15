@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Jura';
+  src: url('/fonts/Jura/JuraDemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Light-BETA.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter/Inter-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root {
+  font-size: 62.5%;
+  --clr-black: #171717;
+  --clr-light-black: #323232;
+  --clr-dark-gray: #828284;
+  --clr-light-gray: #cfcfcf;
+  --clr-purple: #796f83;
+  --clr-fucsia: #7b2bb7;
+  --clr-white: #fcf9ff;
+  --clr-light-pink: #f4e5ff;
+}
+body {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
